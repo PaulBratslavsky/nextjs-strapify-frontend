@@ -19,6 +19,7 @@ interface DisclosureClientProps {
   topnav: {
     logoLink: {
       text: string;
+      href: string;
       image: {
         url: string;
         alternativeText: string | null;
@@ -39,7 +40,7 @@ export function DisclosureClient(props: Readonly<DisclosureClientProps>) {
     <Disclosure>
       {({ open }) => (
         <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-          <Link href="/">
+          <Link href={logo.href || "/"}>
             <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
                 <StrapiImage

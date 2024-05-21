@@ -50,6 +50,7 @@ interface NavbarData {
     logoLink: {
       id: number;
       text: string;
+      href: string; 
       image: {
         id: number;
         url: string;
@@ -118,43 +119,3 @@ export async function Navbar() {
     </div>
   );
 }
-
-
-/*
-{
-  id: 1,
-  title: 'Global Setting Page',
-  description: 'Responsible for global website settings.',
-  createdAt: '2024-05-20T16:59:58.446Z',
-  updatedAt: '2024-05-21T05:03:11.112Z',
-  publishedAt: '2024-05-20T16:59:59.488Z',
-  topnav: {
-    id: 1,
-    logoLink: {
-      id: 1,
-      text: 'Nextly',
-      image: {
-        id: 1,
-        url: '/uploads/logo_53a916f10c.svg',
-        alternativeText: null,
-        name: 'logo.svg'
-      }
-    },
-    link: [
-      { id: 1, href: '/', text: 'Home', external: false },
-      { id: 3, href: '/features', text: 'Features', external: false },
-      { id: 4, href: '/pricing', text: 'Pricing', external: false },
-      { id: 5, href: '/company', text: 'Company', external: false },
-      { id: 2, href: '/blog', text: 'Blog', external: false }
-    ],
-    cta: {
-      id: 6,
-      href: 'https://strapi.io',
-      text: 'Get Started',
-      external: true
-    }
-  },
-  meta: {}
-}
-
-*/
