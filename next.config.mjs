@@ -12,6 +12,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "placehold.co",
       },
+      {
+        protocol: "https",
+        hostname: "tbest-hope-25db19767f.media.strapiapp.com",
+      }
     ],
   },
 };
