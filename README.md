@@ -8,7 +8,7 @@ I just update it the template to use `typescript` and `app` folder in Next.js 14
 
 I wanted a simple starter template that I can use to show case how easy you can add a backend with [Strapi](https://strapi.io).
 
-This is the updated project code that requires our Strapi backend that you can find here.
+This is the updated project code that requires our Strapi backend that you can find [here](https://github.com/PaulBratslavsky/main-backend.git).
 
 Once I finish the Strapi integration, I will add the link to the completed project here.
 
