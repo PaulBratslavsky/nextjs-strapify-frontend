@@ -206,7 +206,7 @@ export async function Footer() {
             target="_blank"
             rel="noopener"
           >
-            Paul
+            Paul.
           </a>{" "}
           Illustrations from{" "}
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
