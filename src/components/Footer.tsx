@@ -200,7 +200,7 @@ export async function Footer() {
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
             Web3Templates.
           </a>{" "}
-          updated by{" "}
+          Updated by{" "}
           <a
             href="https://youtube.com/c/codingafterthirty"
             target="_blank"
