@@ -110,8 +110,8 @@ export default async function DynamicPageRoute(props: Readonly<PageProps>) {
 
   const blocks = data[0]?.blocks;
 
-  console.dir(blocks, { depth: null });
-  console.log(slug);
+  // console.dir(blocks, { depth: null });
+  // console.log(slug);
 
   return (
     <Container>
