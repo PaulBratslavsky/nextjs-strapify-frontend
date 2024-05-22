@@ -52,7 +52,6 @@ async function loader() {
 }
 
 function blockRenderer(block: any) {
-  console.dir(block, { depth: null });
   switch (block.__component) {
     case "layout.hero":
       return <Hero key={block.id} data={block} />;
@@ -78,8 +77,9 @@ function blockRenderer(block: any) {
 export default async function Home() {
   const data = await loader();
   const blocks = data?.blocks;
+  if (!blocks) return null;
 
-  console.dir(blocks, { depth: null });
+  // console.dir(blocks, { depth: null });
 
   return (
     <Container>
